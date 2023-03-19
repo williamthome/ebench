@@ -1,1 +1,28 @@
-[].
+{"1.2.0",
+[{<<"argparse">>,{pkg,<<"argparse">>,<<"1.2.4">>},1},
+ {<<"erlperf">>,{pkg,<<"erlperf">>,<<"2.2.0">>},0},
+ {<<"jiffy">>,{pkg,<<"jiffy">>,<<"1.1.1">>},0},
+ {<<"jsone">>,
+  {git,"https://github.com/sile/jsone.git",
+       {ref,"e25344b6c202dd7ffe520c0fb623c1ac53b637df"}},
+  0},
+ {<<"jsx">>,{pkg,<<"jsx">>,<<"3.1.0">>},0},
+ {<<"jsxrecord">>,
+  {git,"https://github.com/zotonic/jsxrecord.git",
+       {ref,"d5fe8c65ca715302c2876e87534e00bdd48068d3"}},
+  0},
+ {<<"thoas">>,{pkg,<<"thoas">>,<<"1.0.0">>},0}]}.
+[
+{pkg_hash,[
+ {<<"argparse">>, <<"A31E7C5D9F8814AFCD9B42C1B98C21DA6F851F93F2C8C00C107F6201668A0A7D">>},
+ {<<"erlperf">>, <<"9841D71F0AA0EE344BA3FBA919563362F7A64A96CC61C4E38F1A28E941162A4C">>},
+ {<<"jiffy">>, <<"ACA10F47AA91697BF24AB9582C74E00E8E95474C7EF9F76D4F1A338D0F5DE21B">>},
+ {<<"jsx">>, <<"D12516BAA0BB23A59BB35DCCAF02A1BD08243FCBB9EFE24F2D9D056CCFF71268">>},
+ {<<"thoas">>, <<"567C03902920827A18A89F05B79A37B5BF93553154B883E0131801600CF02CE0">>}]},
+{pkg_hash_ext,[
+ {<<"argparse">>, <<"AC6FDB7183EA20ADEB7EB66E34B21F2E8C4C6925913EE0C0765D339D97009FFE">>},
+ {<<"erlperf">>, <<"B627CA998B07F78FBB0B7DA17C0537AE87730C520E1961C3633F9496B3729973">>},
+ {<<"jiffy">>, <<"62E1F0581C3C19C33A725C781DFA88410D8BFF1BBAFC3885A2552286B4785C4C">>},
+ {<<"jsx">>, <<"0C5CC8FDC11B53CC25CF65AC6705AD39E54ECC56D1C22E4ADB8F5A53FB9427F3">>},
+ {<<"thoas">>, <<"FC763185B932ECB32A554FB735EE03C3B6B1B31366077A2427D2A97F3BD26735">>}]}
+].

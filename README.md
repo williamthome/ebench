@@ -1,9 +1,15 @@
 json_bench
 =====
 
-An OTP application
+An app to benchmark json libs.
 
-Build
+Bench
 -----
 
-    $ rebar3 compile
+The result is average iterations per second.
+Higher is best.
+
+```shell
+    $ rebar3 shell
+    1> json_bench:run().
+```
