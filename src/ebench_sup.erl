@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc json_bench top level supervisor.
+%% @doc ebench top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(json_bench_sup).
+-module(ebench_sup).
 
 -behaviour(supervisor).
 

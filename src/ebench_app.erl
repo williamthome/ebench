@@ -1,16 +1,16 @@
 %%%-------------------------------------------------------------------
-%% @doc json_bench public API
+%% @doc ebench public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(json_bench_app).
+-module(ebench_app).
 
 -behaviour(application).
 
 -export([start/2, stop/1]).
 
 start(_StartType, _StartArgs) ->
-    json_bench_sup:start_link().
+    ebench_sup:start_link().
 
 stop(_State) ->
     ok.
